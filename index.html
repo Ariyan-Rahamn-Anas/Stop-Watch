@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+
+    <!-- ================= --- CSS link --- ====================== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="stop-watch">
+            <h2>STOPWATCH</h2>
+            <div class="watchImg">
+                <img class="watch-img" src="./img/stopwatch.png" alt="">
+            </div>
+            <div class="watch-time">
+                <h1 id="display-time">00:00:00</h1>
+            </div>
+            <div class="controller-img">
+                <img class="stop" src="./img/stop-btn.png" alt="" title="stop" onclick="watchStop()">
+                <img class="play" src="./img/play-button.png" alt="" title="play" onclick="watchStart()">
+                <img class="restart" src="./img/restart.png" alt="" title="restart" onclick="watchRestart()">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    <footer>&copy;Copyright-2023 || all rights reserved by Ariyan Rahman Anas</footer>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

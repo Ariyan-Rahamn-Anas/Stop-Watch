@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 95vh;
+    width: 100%;
+    background-color: #bed8f3;
+    padding: 3rem 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+.watch-img{
+    height: 12rem;
+}
+.watch-time{
+    padding: 2rem 0;
+    text-align: center;
+}
+.stop, .restart{
+    height: 3.5rem;
+    transition: .45s;
+}
+.play{
+    height: 5rem;
+    transition: .45s;
+}
+.play:hover{
+    transform: scale(1.2,1.2);    
+}
+.stop:hover{
+    transform: scale(1.2,1.2);
+}
+.restart:hover{
+    transform: scale(1.2,1.2);
+}
+.footer{
+    height: 5vh;
+    background: #bed8f3;
+    text-align: center;
+    padding: 0 .3rem;
+}
